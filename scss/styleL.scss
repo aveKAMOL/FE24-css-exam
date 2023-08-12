@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+// font-family: 'Lexend Deca', sans-serif;
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body{
+    background: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+
+    .careersPageDeskTop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+
+        .headerTableBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-top: 22px;
+            margin-bottom: 21px;
+
+            .headerNav{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 53px;
+
+                header{
+                    display: flex;
+                    align-items: center;
+                    width: 1106px;
+                    height: 53px;
+    
+                    .allPageLinkes{
+                        display: flex;
+                        margin-left: 58px;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 249px;
+                        height: 25px;
+    
+                        a{
+                            text-decoration: none;
+                            color: #939CAA;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            transition: 0.4s;
+    
+                            &:hover{
+                                cursor: pointer;
+                                color: #FCB72B;
+                            }
+                        }
+                    }
+    
+                    .getScootIn{
+                        padding: 14px 39px 14px 39px;
+                        background: #FCB72B;
+                        font-family: 'Space Mono', monospace;
+                        color: #FFFFFF;
+                        text-align: center;
+                        font-size: 15px;
+                        margin-left: 512px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px;
+                        transition: 0.1s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            background: #FFFFFF;
+                            color: #FCB72B;
+                            border: 3px solid #FCB72B;
+                            padding: 12px 36px 12px 36px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .aboutBlock{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 200px;
+
+            .aboutIntroduction{
+                display: flex;
+                align-items: center;
+                width: 1440px;
+                height: 200px;
+                // background-image: url(../aboutPage/aboutPageImg/Bitmap.png);
+                background: #495567;
+                opacity: 0.75;
+                background-position: center center;
+                background-size: cover;
+    
+                .aboutIntroWord{
+                    color: #FFFFFF;
+                    font-family: Space Mono;
+                    font-size: 56px;
+                    margin-left: 165px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 56px; 
+                    letter-spacing: -2.5px;
+                }
+    
+                .circleForDesighnOfIntro{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 234px;
+                    height: 63px;
+                    margin-left: 910px;
+    
+                    .firstCircle{
+                        width: 60px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        margin-right: 22px;
+                        border-radius: 100%;
+                        border: 3px solid #FFF;
+                    }
+    
+                    .secondCircle{
+                        width: 60px;
+                        height: 60px;
+                        flex-shrink: 0;
+                        margin-right: 22px;
+                        border-radius: 100%;
+                        border: 3px solid #FFF;
+                    }
+    
+                    .thirdCircle{
+                        width: 63px;
+                        height: 63px;
+                        flex-shrink: 0;
+                        border-radius: 100%;
+                        background: #FFFFFF;
+                    }
+                }
+            }
+        }
+
+
+        .fullFooter{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1440px;
+            margin-top: 160px;
+            height: 396px;
+
+            .signUp{
+                display: flex;
+                align-items: center;
+                width: 1440px;
+                height: 300px;
+                background-image: url(../img/homePictures/footerBackground.svg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+
+                .signUpScoot{
+                    width: 415px;
+                    height: 96px;
+                    margin-left: 165px;
+                    color: #FFFFFF;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: -2.143px;
+                }
+
+                .allAppStores{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 359px;
+                    height: 56px;
+                    margin-left: 336px;
+                }
+            }
+
+            footer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 1440px;
+                height: 96px;
+                background: rgba(51, 58, 68, 1);
+
+                .mainFooter{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 1011px;
+                    height: 29px;
+
+                    .partOfMainFooter{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 417px;
+                        height: 29px;
+
+                        .allPageLinkess{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 249px;
+                            height: 25px;
+        
+                            a{
+                                text-decoration: none;
+                                color: #939CAA;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; 
+                                transition: 0.4s;
+        
+                                &:hover{
+                                    cursor: pointer;
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+                    }
+
+                    .socialNetworks{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 120px;
+                        height: 24px;
+
+                        .facebook{
+                            svg{
+                                path{
+                                    fill: #FCB72B;
+                                    transition: 0.4s;
+
+                                    &:hover{
+                                        fill: #E5ECF4;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+
+                        .twitter{
+                            svg{
+                                path{
+                                    fill: #FCB72B;
+                                    transition: 0.4s;
+
+                                    &:hover{
+                                        fill: #E5ECF4;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+
+                        .instagram{
+                            svg{
+                                path{
+                                    fill: #FCB72B;
+                                    transition: 0.4s;
+
+                                    &:hover{
+                                        fill: #E5ECF4;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
