@@ -104,8 +104,7 @@ body{
                 align-items: center;
                 width: 1440px;
                 height: 200px;
-                // background-image: url(../aboutPage/aboutPageImg/Bitmap.png);
-                background: #495567;
+                background-image: url(../careersPage/careersPageImg/careersPageImg.png);
                 opacity: 0.75;
                 background-position: center center;
                 background-size: cover;
@@ -127,7 +126,7 @@ body{
                     justify-content: space-between;
                     width: 234px;
                     height: 63px;
-                    margin-left: 910px;
+                    margin-left: 783px;
     
                     .firstCircle{
                         width: 60px;
@@ -158,6 +157,139 @@ body{
             }
         }
 
+        .mappyLocation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 120px;
+            width: 1440px;
+            height: 543px;
+
+            .mappyLocationBlock{
+                width: 1110px;
+                height: 543px;
+                background-image: url(../locationPage/locationPageImg/mapOflocationPage.png);
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+
+                .locationMessages{
+                    width: 189px;
+                    height: 88px;
+
+                    .mainBlockOfLocationMasseges{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 189px;
+                        height: 72px;
+                        background: #FCB72B;
+                        
+                        h3{
+                            color: #495567;
+                            text-align: center;
+                            font-family: Space Mono;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 28px;
+                            letter-spacing: -1.071px;
+                        }
+                    }
+                    
+                    .triagleOfLocationMassages{
+                        position: relative;
+                        width: 20px;
+                        left: 84px;
+                        bottom: 10px;
+                        height: 20px;
+                        background: #FCB72B;
+                        transform: rotate(45deg);
+                    }
+                }
+
+                .newYork{
+                    margin-top: 71.44px;
+                    margin-left: 147px;
+                }
+
+                .london{
+                    margin-left: 393px;
+                    margin-top: -144px;
+                }
+
+                .yokohama{
+                    margin-left: 856px;
+                    margin-top: -22px;
+                }
+
+                .jakarta{
+                    margin-left: 779px;
+                    margin-top: 85px;
+                }
+            }
+        }
+
+        .aboutOurCity{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 1440px;
+            margin-top: 120px;
+            height: 100px;
+
+            .aboutOurCityBlock{
+                display: flex;
+                align-items: center;
+                width: 1110px;
+                height: 100px;
+
+                h2{
+                    width: 351px;
+                    height: 96px;
+                    color: #495567;
+                    font-family: Space Mono;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 48px; 
+                    letter-spacing: -2.143px;
+                }
+
+                p{
+                    height: 100px;
+                    margin-left: 30px;
+                    margin-right: 104px;
+                    width: 445px;
+                    color: #939CAA;
+                    font-family: Lexend Deca;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                }
+
+                .messageUs{
+                    padding: 14px 44px 14px 44px;
+                    background: #FCB72B;
+                    color: #FFFFFF;
+                    text-align: center;
+                    font-family: Space Mono;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+
+                    &:hover{
+                        cursor: pointer;
+                        background: #FFFFFF;
+                        color: #FCB72B;
+                        border: 3px solid #FCB72B;
+                        padding: 12px 42px 12px 42px;
+                    }
+                }
+            }
+        }
 
         .fullFooter{
             display: flex;
@@ -165,7 +297,7 @@ body{
             align-items: center;
             justify-content: center;
             width: 1440px;
-            margin-top: 160px;
+            margin-top: 120px;
             height: 396px;
 
             .signUp{

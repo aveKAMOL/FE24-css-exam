@@ -92,7 +92,7 @@ body .careersPageDeskTop .aboutBlock .aboutIntroduction {
   align-items: center;
   width: 1440px;
   height: 200px;
-  background: #495567;
+  background-image: url(../careersPage/careersPageImg/careersPageImg.png);
   opacity: 0.75;
   background-position: center center;
   background-size: cover;
@@ -113,7 +113,7 @@ body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro
   justify-content: space-between;
   width: 234px;
   height: 63px;
-  margin-left: 910px;
+  margin-left: 783px;
 }
 body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro .firstCircle {
   width: 60px;
@@ -138,13 +138,131 @@ body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro
   border-radius: 100%;
   background: #FFFFFF;
 }
+body .careersPageDeskTop .mappyLocation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  width: 1440px;
+  height: 543px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock {
+  width: 1110px;
+  height: 543px;
+  background-image: url(../locationPage/locationPageImg/mapOflocationPage.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .locationMessages {
+  width: 189px;
+  height: 88px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .locationMessages .mainBlockOfLocationMasseges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  height: 72px;
+  background: #FCB72B;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .locationMessages .mainBlockOfLocationMasseges h3 {
+  color: #495567;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .locationMessages .triagleOfLocationMassages {
+  position: relative;
+  width: 20px;
+  left: 84px;
+  bottom: 10px;
+  height: 20px;
+  background: #FCB72B;
+  transform: rotate(45deg);
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .newYork {
+  margin-top: 71.44px;
+  margin-left: 147px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .london {
+  margin-left: 393px;
+  margin-top: -144px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .yokohama {
+  margin-left: 856px;
+  margin-top: -22px;
+}
+body .careersPageDeskTop .mappyLocation .mappyLocationBlock .jakarta {
+  margin-left: 779px;
+  margin-top: 85px;
+}
+body .careersPageDeskTop .aboutOurCity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  margin-top: 120px;
+  height: 100px;
+}
+body .careersPageDeskTop .aboutOurCity .aboutOurCityBlock {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  height: 100px;
+}
+body .careersPageDeskTop .aboutOurCity .aboutOurCityBlock h2 {
+  width: 351px;
+  height: 96px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+}
+body .careersPageDeskTop .aboutOurCity .aboutOurCityBlock p {
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 104px;
+  width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .careersPageDeskTop .aboutOurCity .aboutOurCityBlock .messageUs {
+  padding: 14px 44px 14px 44px;
+  background: #FCB72B;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+body .careersPageDeskTop .aboutOurCity .aboutOurCityBlock .messageUs:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+  padding: 12px 42px 12px 42px;
+}
 body .careersPageDeskTop .fullFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 1440px;
-  margin-top: 160px;
+  margin-top: 120px;
   height: 396px;
 }
 body .careersPageDeskTop .fullFooter .signUp {
