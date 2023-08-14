@@ -92,7 +92,7 @@ body .careersPageDeskTop .aboutBlock .aboutIntroduction {
   align-items: center;
   width: 1440px;
   height: 200px;
-  background: #495567;
+  background-image: url(../careersPage/careersPageImg/careersPageImg.png);
   opacity: 0.75;
   background-position: center center;
   background-size: cover;
@@ -113,7 +113,7 @@ body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro
   justify-content: space-between;
   width: 234px;
   height: 63px;
-  margin-left: 910px;
+  margin-left: 846px;
 }
 body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro .firstCircle {
   width: 60px;
@@ -183,8 +183,8 @@ body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMai
   margin-bottom: 40px;
   line-height: 25px;
 }
-body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore {
-  padding: 14px 39px 14px 39px;
+body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .sayHello {
+  padding: 14px 49px 14px 49px;
   background: #FCB72B;
   font-family: "Space Mono", monospace;
   color: #FFFFFF;
@@ -195,12 +195,12 @@ body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMai
   line-height: 25px;
   transition: 0.1s;
 }
-body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore:hover {
+body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .sayHello:hover {
   cursor: pointer;
   background: #FFFFFF;
   color: #FCB72B;
   border: 3px solid #FCB72B;
-  padding: 13px 37px 13px 38px;
+  padding: 13px 47px 13px 48px;
 }
 body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .imgOfMainBlock {
   display: flex;
@@ -442,6 +442,75 @@ body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+}
+body .careersPageDeskTop .applyingTools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  margin-top: 120px;
+  height: 888px;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 888px;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  height: 128px;
+  background: #F2F5F9;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 650px;
+  margin-left: 40px;
+  margin-right: 176px;
+  height: 61px;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks h3 {
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks p {
+  color: #495567;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .apply {
+  padding: 14px 67.5px 14px 67.5px;
+  background: #FCB72B;
+  font-family: "Space Mono", monospace;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  transition: 0.1s;
+}
+body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .apply:hover {
+  cursor: pointer;
+  background: #FFFFFF;
+  color: #FCB72B;
+  border: 3px solid #FCB72B;
+  padding: 13px 64.5px 13px 64.5px;
 }
 body .careersPageDeskTop .fullFooter {
   display: flex;
