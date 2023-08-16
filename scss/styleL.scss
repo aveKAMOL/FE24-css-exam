@@ -871,3 +871,464 @@ body{
         }
     }
 }
+
+@media (max-width: 775px){
+    body{
+        background: #FFFFFF;
+        font-family: 'Space Mono', monospace;
+    
+        .careersPageDeskTop{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+    
+            .headerTableBar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 22px;
+                margin-bottom: 21px;
+    
+                .headerNav{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 53px;
+    
+                    header{
+                        display: flex;
+                        align-items: center;
+                        width: 375px;
+                        height: 64px;
+
+                        .burger{
+                            width: 20px;
+                            height: 16px;
+                        }
+
+                        a{
+                            margin-left: 99px;
+                        }
+        
+                        .allPageLinkes{
+                            display: none;
+                            margin-left: 58px;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 249px;
+                            height: 25px;
+        
+                            a{
+                                text-decoration: none;
+                                color: #939CAA;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; 
+                                transition: 0.4s;
+        
+                                &:hover{
+                                    cursor: pointer;
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+        
+                        .getScootIn{
+                            display: none;
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            font-family: 'Space Mono', monospace;
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-size: 15px;
+                            margin-left: 94px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #FCB72B;
+                                border: 3px solid #FCB72B;
+                                padding: 12px 36px 12px 36px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .aboutBlock{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 200px;
+    
+                .aboutIntroduction{
+                    display: flex;
+                    align-items: center;
+                    width: 768px;
+                    height: 200px;
+                    background-image: url(../img/imgsOfAllTabletVersionPages/Group\ 26\ \(1\).png);
+                    opacity: 0.75;
+                    background-position: center center;
+                    background-size: cover;
+        
+                    .aboutIntroWord{
+                        color: #FFFFFF;
+                        font-family: Space Mono;
+                        font-size: 56px;
+                        margin-left: 97px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 56px; 
+                        letter-spacing: -2.5px;
+                    }
+        
+                    .circleForDesighnOfIntro{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 234px;
+                        height: 63px;
+                        margin-left: 910px;
+        
+                        .firstCircle{
+                            width: 60px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            margin-right: 22px;
+                            border-radius: 100%;
+                            border: 3px solid #FFF;
+                        }
+        
+                        .secondCircle{
+                            width: 60px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            margin-right: 22px;
+                            border-radius: 100%;
+                            border: 3px solid #FFF;
+                        }
+        
+                        .thirdCircle{
+                            width: 63px;
+                            height: 63px;
+                            flex-shrink: 0;
+                            border-radius: 100%;
+                            background: #FFFFFF;
+                        }
+                    }
+                }
+            }
+    
+            .mappyLocation{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 120px;
+                width: 1440px;
+                height: 543px;
+    
+                .mappyLocationBlock{
+                    width: 689px;
+                    height: 337px;
+                    background-image: url(../img/imgsOfAllTabletVersionPages/Group\ 8.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+    
+                    .locationMessages{
+                        display: none;
+                        width: 189px;
+                        height: 88px;
+    
+                        .mainBlockOfLocationMasseges{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 189px;
+                            height: 72px;
+                            background: #FCB72B;
+                            
+                            h3{
+                                color: #495567;
+                                text-align: center;
+                                font-family: Space Mono;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 28px;
+                                letter-spacing: -1.071px;
+                            }
+                        }
+                        
+                        .triagleOfLocationMassages{
+                            position: relative;
+                            width: 20px;
+                            left: 84px;
+                            bottom: 10px;
+                            height: 20px;
+                            background: #FCB72B;
+                            transform: rotate(45deg);
+                        }
+                    }
+    
+                    .newYork{
+                        display: none;
+                        margin-top: 71.44px;
+                        margin-left: 147px;
+                    }
+    
+                    .london{
+                        display: none;
+                        margin-left: 393px;
+                        margin-top: -144px;
+                    }
+    
+                    .yokohama{
+                        display: none;
+                        margin-left: 856px;
+                        margin-top: -22px;
+                    }
+    
+                    .jakarta{
+                        display: none;
+                        margin-left: 779px;
+                        margin-top: 85px;
+                    }
+                }
+            }
+    
+            .aboutOurCity{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 573px;
+                margin-top: 120px;
+                height: 304px;
+    
+                .aboutOurCityBlock{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 573px;
+                    height: 304px;
+    
+                    h2{
+                        text-align: center;
+                        width: 457px;
+                        height: 96px;
+                        color: #495567;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; 
+                        letter-spacing: -2.143px;
+                    }
+    
+                    p{
+                        text-align: center;
+                        height: 75px;
+                        margin-left: 30px;
+                        margin-right: 104px;
+                        width: 573px;
+                        color: #939CAA;
+                        font-family: Lexend Deca;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                    }
+    
+                    .messageUs{
+                        padding: 14px 44px 14px 44px;
+                        background: #FCB72B;
+                        color: #FFFFFF;
+                        text-align: center;
+                        font-family: Space Mono;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px;
+    
+                        &:hover{
+                            cursor: pointer;
+                            background: #FFFFFF;
+                            color: #FCB72B;
+                            border: 3px solid #FCB72B;
+                            padding: 12px 42px 12px 42px;
+                        }
+                    }
+                }
+            }
+    
+            .fullFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 375px;
+                margin-top: 120px;
+                height: 758px;
+    
+                .signUp{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 375px;
+                    height: 320px;
+                    background-image: url(../img/mobileVersionImgs/Group\ 22.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+    
+                    .signUpScoot{
+                        margin-top: 88px;
+                        width: 311px;
+                        height: 64px;
+                        margin-left: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        font-family: Space Mono;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 32px;
+                        letter-spacing: -2.143px;
+                    }
+    
+                    .allAppStores{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 256px;
+                        height: 40px;
+                        margin-left: 0px;
+                        margin-top: 40px;
+
+                        .appleStore{
+                            width: 113px;
+                            height: 36px;
+                        }
+
+                        .GooglePlay{
+                            width: 113px;
+                            height: 40px;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 375px;
+                    height: 438px;
+                    background: rgba(51, 58, 68, 1);
+    
+                    .mainFooter{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 120px;
+                        height: 286px;
+    
+                        .partOfMainFooter{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 120px;
+                            height: 159px;
+    
+                            .allPageLinkess{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 74px;
+                                height: 107px;
+            
+                                a{
+                                    text-decoration: none;
+                                    color: #939CAA;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; 
+                                    transition: 0.4s;
+            
+                                    &:hover{
+                                        cursor: pointer;
+                                        color: #FCB72B;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .socialNetworks{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 120px;
+                            height: 24px;
+    
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .instagram{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

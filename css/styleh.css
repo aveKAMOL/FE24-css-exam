@@ -1259,4 +1259,651 @@ body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg
     fill: #E5ECF4;
     cursor: pointer;
   }
+}
+@media (max-width: 775px) {
+  body {
+    background: #FFFFFF;
+    font-family: "Space Mono", monospace;
+  }
+  body .homePageDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  body .homePageDesk .headerTableBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 21px;
+  }
+  body .homePageDesk .headerTableBar .headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 53px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header {
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 64px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .burger {
+    width: 20px;
+    height: 16px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header a {
+    margin-left: 99px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes {
+    display: none;
+    margin-left: 58px;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 25px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .getScootIn {
+    display: none;
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 94px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .getScootIn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 12px 36px 12px 36px;
+  }
+  body .homePageDesk .introductionBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+  }
+  body .homePageDesk .introductionBlock .introduction {
+    width: 375px;
+    height: 650px;
+    background-image: url(../img/mobileVersionImgs/Bitmap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body .homePageDesk .introductionBlock .introduction .introScootSharing {
+    width: 311px;
+    margin-left: 32px;
+    margin-top: 115px;
+    height: 120px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.786px;
+  }
+  body .homePageDesk .introductionBlock .introduction .lineOfItro {
+    display: none;
+  }
+  body .homePageDesk .introductionBlock .introduction .textIntro {
+    margin-top: 24px;
+    margin-left: 32px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 311px;
+    height: 125px;
+  }
+  body .homePageDesk .introductionBlock .introduction .getScootInn {
+    padding: 14px 39px 14px 39px;
+    margin-left: 98px;
+    margin-top: 110px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .homePageDesk .introductionBlock .introduction .getScootInn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .introductionBlock .introduction .introPointer {
+    display: none;
+  }
+  body .homePageDesk .introductionBlock .introduction .circleForDesighnOfIntro {
+    display: none;
+  }
+  body .homePageDesk .followingRoolsForScoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 311px;
+    height: 792px;
+    margin-top: 122px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows {
+    display: flex;
+    width: 311px;
+    height: 792px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .pickedLine {
+    display: none;
+    position: absolute;
+    width: 15px;
+    margin-left: 41px;
+    height: 439px;
+    background: rgb(229, 236, 244);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 311px;
+    width: 792px;
+    background: transparent;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 311px;
+    height: 232px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .firstSquare {
+    width: 96px;
+    height: 96px;
+    margin-left: 285px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .locate {
+    color: #495567;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .textOfLocate {
+    width: 311px;
+    height: 100px;
+    text-align: center;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 311px;
+    height: 232px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .secondSquare {
+    width: 96px;
+    height: 96px;
+    margin-left: 285px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .pick {
+    text-align: center;
+    color: #495567;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .textOfPick {
+    width: 311px;
+    text-align: center;
+    height: 100px;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 311px;
+    height: 232px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .thirdSquare {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .enjoy {
+    color: #495567;
+    font-size: 24px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .textOfEnjoy {
+    width: 311px;
+    height: 100px;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .firstInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 145px;
+    width: 769px;
+    height: 805px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 747px;
+    margin-top: 145px;
+    height: 805px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 575px;
+    height: 304px;
+    margin-top: 56px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .easyToUseRiding {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    width: 457px;
+    margin-bottom: 40px;
+    height: 96px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .smallTextOfBlockInfo {
+    text-align: center;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 573px;
+    height: 75px;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .imgOfMainBlock {
+    display: flex;
+    align-items: flex-end;
+    width: 747px;
+    height: 445px;
+    background-image: url(../img/homePictures/EasyToUseGirl.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  body .homePageDesk .secondInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 768px;
+    height: 805px;
+    margin-top: 128px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 768px;
+    height: 805px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondImgOfMainBlock {
+    align-self: flex-start;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock {
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+    align-items: center;
+    width: 573px;
+    height: 304px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .comingToACity {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    width: 457px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .secondMainTextOfBlockInfo {
+    color: #939CAA;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 573px;
+    height: 75px;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .thirdInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 768px;
+    height: 805px;
+    margin-top: 120px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 768px;
+    height: 805px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdImgOfMainBlock {
+    align-self: flex-end;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 445px;
+    height: 313px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .zeroHasslePayments {
+    color: #495567;
+    font-family: Space Mono;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .thirdMainTextOfBlockInfo {
+    color: #939CAA;
+    font-family: Lexend Deca;
+    margin-top: 40px;
+    width: 573px;
+    margin-bottom: 40px;
+    height: 75px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .fullFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    margin-top: 120px;
+    height: 758px;
+  }
+  body .homePageDesk .fullFooter .signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 320px;
+    background-image: url(../img/mobileVersionImgs/Group\ 22.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  body .homePageDesk .fullFooter .signUp .signUpScoot {
+    margin-top: 88px;
+    width: 311px;
+    height: 64px;
+    margin-left: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .fullFooter .signUp .allAppStores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 256px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  body .homePageDesk .fullFooter .signUp .allAppStores .appleStore {
+    width: 113px;
+    height: 36px;
+  }
+  body .homePageDesk .fullFooter .signUp .allAppStores .GooglePlay {
+    width: 113px;
+    height: 40px;
+  }
+  body .homePageDesk .fullFooter footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 438px;
+    background: rgb(51, 58, 68);
+  }
+  body .homePageDesk .fullFooter footer .mainFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 120px;
+    height: 286px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 159px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 74px;
+    height: 107px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 24px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .facebook svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .facebook svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .twitter svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .twitter svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=styleh.css.map */

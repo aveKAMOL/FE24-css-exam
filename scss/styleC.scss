@@ -1436,3 +1436,747 @@ body{
         }
     }
 }
+
+@media (max-width: 775px){
+    body{
+        background: #FFFFFF;
+        font-family: 'Space Mono', monospace;
+    
+        .careersPageDeskTop{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+    
+            .headerTableBar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 22px;
+                margin-bottom: 21px;
+    
+                .headerNav{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 53px;
+    
+                    header{
+                        display: flex;
+                        align-items: center;
+                        width: 375px;
+                        height: 64px;
+
+                        .burger{
+                            width: 20px;
+                            height: 16px;
+                        }
+
+                        a{
+                            margin-left: 99px;
+                        }
+        
+                        .allPageLinkes{
+                            display: none;
+                            margin-left: 58px;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 249px;
+                            height: 25px;
+        
+                            a{
+                                text-decoration: none;
+                                color: #939CAA;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; 
+                                transition: 0.4s;
+        
+                                &:hover{
+                                    cursor: pointer;
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+        
+                        .getScootIn{
+                            display: none;
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            font-family: 'Space Mono', monospace;
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-size: 15px;
+                            margin-left: 94px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #FCB72B;
+                                border: 3px solid #FCB72B;
+                                padding: 12px 36px 12px 36px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .aboutBlock{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 200px;
+    
+                .aboutIntroduction{
+                    display: flex;
+                    align-items: center;
+                    width: 768px;
+                    height: 200px;
+                    background-image: url(../img/imgsOfAllTabletVersionPages/Group\ 26\ \(1\).png);
+                    opacity: 0.75;
+                    background-position: center center;
+                    background-size: cover;
+        
+                    .aboutIntroWord{
+                        color: #FFFFFF;
+                        font-family: Space Mono;
+                        font-size: 56px;
+                        margin-left: 97px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 56px; 
+                        letter-spacing: -2.5px;
+                    }
+        
+                    .circleForDesighnOfIntro{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 234px;
+                        height: 63px;
+                        margin-left: 910px;
+        
+                        .firstCircle{
+                            width: 60px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            margin-right: 22px;
+                            border-radius: 100%;
+                            border: 3px solid #FFF;
+                        }
+        
+                        .secondCircle{
+                            width: 60px;
+                            height: 60px;
+                            flex-shrink: 0;
+                            margin-right: 22px;
+                            border-radius: 100%;
+                            border: 3px solid #FFF;
+                        }
+        
+                        .thirdCircle{
+                            width: 63px;
+                            height: 63px;
+                            flex-shrink: 0;
+                            border-radius: 100%;
+                            background: #FFFFFF;
+                        }
+                    }
+                }
+            }
+    
+            .firstInformationAboutScoot{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 200px;
+                width: 768px;
+                height: 805px;
+    
+                .mainBlockOfInfo{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 768px;
+                    height: 805px;
+
+
+    
+                    .textOfMainBlock{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 445px;
+                        height: 313px;
+    
+                        .easyToUseRiding{
+                            text-align: center;
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 48px;
+                            font-style: normal;
+                            width: 445px;
+                            margin-bottom: 40px;
+                            height: 96px;
+                            font-weight: 700;
+                            line-height: 48px; 
+                            letter-spacing: -2.143px;
+                        }                  
+                        
+                        .smallTextOfBlockInfo{
+                            text-align: center;
+                            color: #939CAA;
+                            font-family: Lexend Deca;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            width: 573px;
+                            height: 75px;
+                            margin-bottom: 40px;
+                            line-height: 25px;
+                        }
+    
+                        .sayHello{
+                            padding: 14px 49px 14px 49px;
+                            background: #FCB72B;
+                            font-family: 'Space Mono', monospace;
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #FCB72B;
+                                border: 3px solid #FCB72B;
+                                padding: 13px 47px 13px 48px;
+                            }
+                        }
+                    }
+    
+                    .imgOfMainBlock{
+                        display: flex;
+                        align-self: flex-end;
+                        align-items: flex-end;
+                        width: 747px;
+                        height: 445px;
+                        background-image: url(../careersPage/careersPageImg/Group\ 16.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: right;
+                    }
+                }
+            }
+    
+            .ourValuesBlock{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 768px;
+                margin-top: 120px;
+                height: 1584px;
+    
+                .ourValues{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 768px;
+                    height: 1584px;
+    
+                    .ourValuesIntroText{
+                        color: #495567;
+                        text-align: center;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; 
+                        letter-spacing: -2.143px;
+                    }
+    
+                    .aboutOurValues{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 768px;
+                        height: 1486px;
+    
+                        .ourTech{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 457px;
+                            height: 487px;
+    
+                            .ourTechImg{
+                                display: flex;
+                                align-items: flex-end;
+                                justify-content: center;
+                                width: 350px;
+                                height: 350px;
+                                background-image: url(../aboutPage/aboutPageImg/ourTech.png);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+    
+                                .first{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 96px;
+                                    height: 96px;
+                                    border-radius: 100%;
+                                    background: rgba(252, 183, 43, 1);
+    
+                                    p{
+                                        color: #495567;
+                                        text-align: center;
+                                        font-family: Space Mono;
+                                        font-size: 24px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 28px;
+                                        letter-spacing: -1.071px;
+                                    }
+                                }
+                            }
+    
+                            .ourTechText{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 350px;
+                                height: 130px;
+    
+                                h3{
+                                    width: 350px;
+                                    color: #495567;
+                                    text-align: center;
+                                    font-family: Space Mono;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 28px; 
+                                    letter-spacing: -1.071px;
+                                }
+    
+                                p{
+                                    width: 457px;
+                                    height: 75px;
+                                    color: #939CAA;
+                                    text-align: center;
+                                    font-family: Lexend Deca;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+    
+                        .ourIntegrity{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 457px;
+                            height: 487px;
+    
+                            .ourIntegrityImg{
+                                display: flex;
+                                align-items: flex-end;
+                                justify-content: center;
+                                width: 350px;
+                                height: 350px;
+                                background-image: url(../aboutPage/aboutPageImg/ourIntegrity.png);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+    
+                                .second{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 96px;
+                                    height: 96px;
+                                    border-radius: 100%;
+                                    background: rgba(252, 183, 43, 1);
+    
+                                    p{
+                                        color: #495567;
+                                        text-align: center;
+                                        font-family: Space Mono;
+                                        font-size: 24px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 28px;
+                                        letter-spacing: -1.071px;
+                                    }
+                                }
+                            }
+    
+                            .ourIntegrityText{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 350px;
+                                height: 130px;
+    
+                                h3{
+                                    width: 350px;
+                                    color: #495567;
+                                    text-align: center;
+                                    font-family: Space Mono;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 28px; 
+                                    letter-spacing: -1.071px;
+                                }
+    
+                                p{
+                                    width: 457px;
+                                    height: 75px;
+                                    color: #939CAA;
+                                    text-align: center;
+                                    font-family: Lexend Deca;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+    
+                        .ourComunity{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 457px;
+                            height: 487px;
+    
+                            .ourComunityImg{
+                                display: flex;
+                                align-items: flex-end;
+                                justify-content: center;
+                                width: 350px;
+                                height: 350px;
+                                background-image: url(../aboutPage/aboutPageImg/ourComunity.png);
+                                background-position: center center;
+                                background-repeat: no-repeat;
+    
+                                .third{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    width: 96px;
+                                    height: 96px;
+                                    border-radius: 100%;
+                                    background: rgba(252, 183, 43, 1);
+    
+                                    p{
+                                        color: #495567;
+                                        text-align: center;
+                                        font-family: Space Mono;
+                                        font-size: 24px;
+                                        font-style: normal;
+                                        font-weight: 700;
+                                        line-height: 28px;
+                                        letter-spacing: -1.071px;
+                                    }
+                                }
+                            }
+    
+                            .ourComunityText{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 350px;
+                                height: 130px;
+    
+                                h3{
+                                    width: 350px;
+                                    color: #495567;
+                                    text-align: center;
+                                    font-family: Space Mono;
+                                    font-size: 24px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 28px; 
+                                    letter-spacing: -1.071px;
+                                }
+    
+                                p{
+                                    width: 457px;
+                                    height: 75px;
+                                    color: #939CAA;
+                                    text-align: center;
+                                    font-family: Lexend Deca;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .applyingTools{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 768px;
+                margin-top: 120px;
+                height: 848px;
+    
+                .applyingToolsBlock{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 689px;
+                    height: 848px;
+    
+                    .allGeneralBlocks{
+                        display: flex;
+                        align-items: center;
+                        width: 689px;
+                        height: 128px;
+                        background: #F2F5F9;
+    
+                        .textOfGeneralBlocks{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: space-between;
+                            width: 650px;
+                            margin-left: 40px;
+                            margin-right: 176px;
+                            height: 61px;
+    
+                            h3{
+                                color: #495567;
+                                font-family: Space Mono;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 28px; 
+                                letter-spacing: -1.071px;
+                            }
+    
+                            p{
+                                color: #495567;
+                                font-family: Lexend Deca;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
+                        }
+    
+                        .apply{
+                            padding: 14px 67.5px 14px 67.5px;
+                            background: #FCB72B;
+                            font-family: 'Space Mono', monospace;
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-size: 15px;
+                            font-style: normal;
+                            margin-right: 48px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #FCB72B;
+                                border: 3px solid #FCB72B;
+                                padding: 13px 64.5px 13px 64.5px;
+                            }
+                        }
+                    }   
+                }
+            }
+    
+            .fullFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 375px;
+                margin-top: 120px;
+                height: 758px;
+    
+                .signUp{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 375px;
+                    height: 320px;
+                    background-image: url(../img/mobileVersionImgs/Group\ 22.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+    
+                    .signUpScoot{
+                        margin-top: 88px;
+                        width: 311px;
+                        height: 64px;
+                        margin-left: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        font-family: Space Mono;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 32px;
+                        letter-spacing: -2.143px;
+                    }
+    
+                    .allAppStores{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 256px;
+                        height: 40px;
+                        margin-left: 0px;
+                        margin-top: 40px;
+
+                        .appleStore{
+                            width: 113px;
+                            height: 36px;
+                        }
+
+                        .GooglePlay{
+                            width: 113px;
+                            height: 40px;
+                        }
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 375px;
+                    height: 438px;
+                    background: rgba(51, 58, 68, 1);
+    
+                    .mainFooter{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        width: 120px;
+                        height: 286px;
+    
+                        .partOfMainFooter{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 120px;
+                            height: 159px;
+    
+                            .allPageLinkess{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 74px;
+                                height: 107px;
+            
+                                a{
+                                    text-decoration: none;
+                                    color: #939CAA;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; 
+                                    transition: 0.4s;
+            
+                                    &:hover{
+                                        cursor: pointer;
+                                        color: #FCB72B;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .socialNetworks{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 120px;
+                            height: 24px;
+    
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .instagram{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
