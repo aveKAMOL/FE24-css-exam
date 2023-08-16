@@ -179,71 +179,48 @@ body .homePageDesk .introductionBlock .introduction .circleForDesighnOfIntro .th
 body .homePageDesk .followingRoolsForScoot {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   width: 1440px;
   height: 291px;
   margin-top: 160px;
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 1275px;
+  width: 1110px;
   height: 291px;
 }
-body .homePageDesk .followingRoolsForScoot .mainFollows .designOfFollows {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  width: 1022px;
-  height: 96px;
-}
-body .homePageDesk .followingRoolsForScoot .mainFollows .designOfFollows .pickedLine {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 1022px;
+body .homePageDesk .followingRoolsForScoot .mainFollows .pickedLine {
+  margin-top: 40px;
+  position: absolute;
+  width: 856px;
   height: 15px;
   background: rgb(229, 236, 244);
-}
-body .homePageDesk .followingRoolsForScoot .mainFollows .designOfFollows .pickedLine .firstSquare {
-  width: 96px;
-  height: 96px;
-  margin-right: 284px;
-  border-radius: 100%;
-  background: rgb(252, 183, 43);
-}
-body .homePageDesk .followingRoolsForScoot .mainFollows .designOfFollows .pickedLine .secondSquare {
-  width: 96px;
-  height: 96px;
-  margin-right: 284px;
-  border-radius: 100%;
-  background: rgb(252, 183, 43);
-}
-body .homePageDesk .followingRoolsForScoot .mainFollows .designOfFollows .pickedLine .thirdSquare {
-  width: 96px;
-  height: 96px;
-  border-radius: 100%;
-  background: rgb(252, 183, 43);
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows {
   display: flex;
   align-items: center;
-  align-self: flex-end;
   justify-content: space-between;
-  height: 155px;
+  height: 291px;
   width: 1110px;
+  background: transparent;
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   width: 350px;
-  height: 155px;
+  height: 291px;
+}
+body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .firstSquare {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-right: 284px;
+  border-radius: 100%;
+  background: rgb(252, 183, 43);
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .locate {
+  margin-top: 136px;
   color: #495567;
   font-size: 24px;
   font-style: normal;
@@ -252,6 +229,7 @@ body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocat
   letter-spacing: -1.071px;
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .textOfLocate {
+  margin-top: 27px;
   width: 350px;
   height: 100px;
   color: #939CAA;
@@ -265,19 +243,28 @@ body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   width: 350px;
-  height: 155px;
+  height: 291px;
+}
+body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .secondSquare {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin-right: 284px;
+  border-radius: 100%;
+  background: rgb(252, 183, 43);
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .pick {
+  margin-top: 136px;
   color: #495567;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 116.667% */
+  line-height: 28px;
   letter-spacing: -1.071px;
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .textOfPick {
+  margin-top: 27px;
   width: 350px;
   height: 100px;
   color: #939CAA;
@@ -291,11 +278,18 @@ body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   width: 350px;
-  height: 155px;
+  height: 291px;
+}
+body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .thirdSquare {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  background: rgb(252, 183, 43);
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .enjoy {
+  margin-top: 136px;
   color: #495567;
   font-size: 24px;
   font-style: normal;
@@ -304,6 +298,7 @@ body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy
   letter-spacing: -1.071px;
 }
 body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .textOfEnjoy {
+  margin-top: 27px;
   width: 350px;
   height: 100px;
   color: #939CAA;
@@ -635,4 +630,633 @@ body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg
 body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg path:hover {
   fill: #E5ECF4;
   cursor: pointer;
+}
+
+@media (max-width: 1360px) and (min-width: 775px) {
+  body {
+    background: #FFFFFF;
+    font-family: "Space Mono", monospace;
+  }
+  body .homePageDesk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  body .homePageDesk .headerTableBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 21px;
+  }
+  body .homePageDesk .headerTableBar .headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 53px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header {
+    display: flex;
+    align-items: center;
+    width: 689px;
+    height: 53px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes {
+    display: flex;
+    margin-left: 58px;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 25px;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .allPageLinkes a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .getScootIn {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 94px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .homePageDesk .headerTableBar .headerNav header .getScootIn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 12px 36px 12px 36px;
+  }
+  body .homePageDesk .introductionBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+  }
+  body .homePageDesk .introductionBlock .introduction {
+    width: 768px;
+    height: 650px;
+    background-image: url(../img/imgsOfAllTabletVersionPages/Bitmap.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body .homePageDesk .introductionBlock .introduction .introScootSharing {
+    width: 573px;
+    margin-left: 97px;
+    height: 112px;
+    color: #FFFFFF;
+    font-size: 56px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+  body .homePageDesk .introductionBlock .introduction .lineOfItro {
+    display: none;
+  }
+  body .homePageDesk .introductionBlock .introduction .textIntro {
+    margin-top: 24px;
+    margin-left: 97px;
+    text-align: center;
+    color: #FFF;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 573px;
+    height: 75px;
+  }
+  body .homePageDesk .introductionBlock .introduction .getScootInn {
+    padding: 14px 39px 14px 39px;
+    margin-left: 294px;
+    margin-top: 95px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .homePageDesk .introductionBlock .introduction .getScootInn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .introductionBlock .introduction .introPointer {
+    display: none;
+  }
+  body .homePageDesk .introductionBlock .introduction .circleForDesighnOfIntro {
+    display: none;
+  }
+  body .homePageDesk .followingRoolsForScoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 573px;
+    height: 470px;
+    margin-top: 122px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows {
+    display: flex;
+    width: 573px;
+    height: 470px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .pickedLine {
+    position: absolute;
+    width: 15px;
+    margin-left: 41px;
+    height: 439px;
+    background: rgb(229, 236, 244);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 470px;
+    width: 573px;
+    background: transparent;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate {
+    display: flex;
+    align-items: flex-start;
+    width: 573px;
+    height: 130px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .firstSquare {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .locate {
+    margin-left: 175px;
+    margin-top: -5px;
+    color: #495567;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutLocate .textOfLocate {
+    margin-left: 175px;
+    margin-top: 27px;
+    width: 398px;
+    height: 75px;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick {
+    display: flex;
+    align-items: flex-start;
+    width: 573px;
+    height: 130px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .secondSquare {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    margin-top: 44px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .pick {
+    margin-left: 175px;
+    margin-top: 40px;
+    color: #495567;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutPick .textOfPick {
+    margin-left: 175px;
+    margin-top: 27px;
+    width: 398px;
+    height: 75px;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy {
+    display: flex;
+    align-items: flex-start;
+    width: 573px;
+    height: 130px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .thirdSquare {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    margin-top: 74px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .enjoy {
+    margin-left: 175px;
+    margin-top: -5px;
+    margin-top: 70px;
+    color: #495567;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .homePageDesk .followingRoolsForScoot .mainFollows .textFollows .aboutEnjoy .textOfEnjoy {
+    margin-left: 175px;
+    margin-top: 27px;
+    width: 398px;
+    height: 75px;
+    color: #939CAA;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .firstInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 145px;
+    width: 769px;
+    height: 805px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 747px;
+    margin-top: 145px;
+    height: 805px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 575px;
+    height: 304px;
+    margin-top: 56px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .easyToUseRiding {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    text-align: center;
+    font-style: normal;
+    width: 457px;
+    margin-bottom: 40px;
+    height: 96px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .smallTextOfBlockInfo {
+    text-align: center;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 573px;
+    height: 75px;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .learnMore a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .firstInformationAboutScoot .mainBlockOfInfo .imgOfMainBlock {
+    display: flex;
+    align-items: flex-end;
+    width: 747px;
+    height: 445px;
+    background-image: url(../img/homePictures/EasyToUseGirl.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  body .homePageDesk .secondInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 768px;
+    height: 805px;
+    margin-top: 128px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 768px;
+    height: 805px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondImgOfMainBlock {
+    align-self: flex-start;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock {
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+    align-items: center;
+    width: 573px;
+    height: 304px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .comingToACity {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    width: 457px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .secondMainTextOfBlockInfo {
+    color: #939CAA;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 573px;
+    height: 75px;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .secondInformationAboutScoot .secondMainBlockInfo .secondTextOfMainBlock .learnMoree a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .thirdInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 768px;
+    height: 805px;
+    margin-top: 120px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    width: 768px;
+    height: 805px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdImgOfMainBlock {
+    align-self: flex-end;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 445px;
+    height: 313px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .zeroHasslePayments {
+    color: #495567;
+    font-family: Space Mono;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .thirdMainTextOfBlockInfo {
+    color: #939CAA;
+    font-family: Lexend Deca;
+    margin-top: 40px;
+    width: 573px;
+    margin-bottom: 40px;
+    height: 75px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    transition: 0.1s;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 3px solid #FCB72B;
+    padding: 13px 37px 13px 38px;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee:hover a {
+    color: #FCB72B;
+  }
+  body .homePageDesk .thirdInformationAboutScoot .thirdMainBlockOfInfo .thirdTextOfMainBlock .learnMoreee a {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration: none;
+  }
+  body .homePageDesk .fullFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    margin-top: 104px;
+    height: 396px;
+  }
+  body .homePageDesk .fullFooter .signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 768px;
+    height: 300px;
+    background-image: url(../img/imgsOfAllTabletVersionPages/footerTabletBack.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  body .homePageDesk .fullFooter .signUp .signUpScoot {
+    margin-top: 62px;
+    width: 457px;
+    height: 96px;
+    margin-left: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .homePageDesk .fullFooter .signUp .allAppStores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 359px;
+    height: 56px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  body .homePageDesk .fullFooter footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    height: 96px;
+    background: rgb(51, 58, 68);
+  }
+  body .homePageDesk .fullFooter footer .mainFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 687px;
+    height: 29px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 417px;
+    height: 29px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 25px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 24px;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .facebook svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .facebook svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .twitter svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .twitter svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .homePageDesk .fullFooter footer .mainFooter .socialNetworks .instagram svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=styleh.css.map */

@@ -203,76 +203,50 @@ body{
         .followingRoolsForScoot{
             display: flex;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             width: 1440px;
             height: 291px;
             margin-top: 160px;
 
             .mainFollows{
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: flex-start;
-                width: 1275px;
+                width: 1110px;
                 height: 291px;
 
-                .designOfFollows{
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    width: 1022px;
-                    height: 96px;
-
-                    .pickedLine{
-                        display: flex;
-                        justify-content: flex-end;
-                        align-items: center;
-                        width: 1022px;
-                        height: 15px;
-                        background: rgba(229, 236, 244, 1);
-
-                        .firstSquare{
-                            width: 96px;
-                            height: 96px;
-                            margin-right: 284px;
-                            border-radius: 100%;
-                            background: rgba(252, 183, 43, 1);
-                        }
-
-                        .secondSquare{
-                            width: 96px;
-                            height: 96px;
-                            margin-right: 284px;
-                            border-radius: 100%;
-                            background: rgba(252, 183, 43, 1);
-                        }
-
-                        .thirdSquare{
-                            width: 96px;
-                            height: 96px;
-                            border-radius: 100%;
-                            background: rgba(252, 183, 43, 1);
-                        }
-                    }
+                .pickedLine{
+                    margin-top: 40px;
+                    position: absolute;
+                    width: 856px;
+                    height: 15px;
+                    background: rgba(229, 236, 244, 1);
                 }
 
                 .textFollows{
                     display: flex;
                     align-items: center;
-                    align-self: flex-end;
                     justify-content: space-between;
-                    height: 155px;
+                    height: 291px;
                     width: 1110px;
+                    background: transparent;
 
                     .aboutLocate{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
-                        justify-content: space-between;
                         width: 350px;
-                        height: 155px;
+                        height: 291px;
+
+                        .firstSquare{
+                            position: absolute;
+                            width: 96px;
+                            height: 96px;
+                            margin-right: 284px;
+                            border-radius: 100%;
+                            background: rgba(252, 183, 43, 1);
+                        }
 
                         .locate{
+                            margin-top: 136px;
                             color: #495567;
                             font-size: 24px;
                             font-style: normal;
@@ -282,6 +256,7 @@ body{
                         }
 
                         .textOfLocate{
+                            margin-top: 27px;
                             width: 350px;
                             height: 100px;
                             color: #939CAA;
@@ -297,20 +272,30 @@ body{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
-                        justify-content: space-between;
                         width: 350px;
-                        height: 155px;
+                        height: 291px;
+
+                        .secondSquare{
+                            position: absolute;
+                            width: 96px;
+                            height: 96px;
+                            margin-right: 284px;
+                            border-radius: 100%;
+                            background: rgba(252, 183, 43, 1);
+                        }
 
                         .pick{
+                            margin-top: 136px;
                             color: #495567;
                             font-size: 24px;
                             font-style: normal;
                             font-weight: 700;
-                            line-height: 28px; /* 116.667% */
+                            line-height: 28px; 
                             letter-spacing: -1.071px;
                         }
 
                         .textOfPick{
+                            margin-top: 27px;
                             width: 350px;
                             height: 100px;
                             color: #939CAA;
@@ -326,11 +311,19 @@ body{
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
-                        justify-content: space-between;
                         width: 350px;
-                        height: 155px;
+                        height: 291px;
+
+                        .thirdSquare{
+                            position: absolute;
+                            width: 96px;
+                            height: 96px;
+                            border-radius: 100%;
+                            background: rgba(252, 183, 43, 1);
+                        }
 
                         .enjoy{
+                            margin-top: 136px;
                             color: #495567;
                             font-size: 24px;
                             font-style: normal;
@@ -340,6 +333,7 @@ body{
                         }
 
                         .textOfEnjoy{
+                            margin-top: 27px;
                             width: 350px;
                             height: 100px;
                             color: #939CAA;
@@ -725,6 +719,761 @@ body{
                                     &:hover{
                                         fill: #E5ECF4;
                                         cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1360px) and (min-width: 775px){
+    body{
+        background: #FFFFFF;
+        font-family: 'Space Mono', monospace;
+    
+        .homePageDesk{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+    
+            .headerTableBar{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin-top: 22px;
+                margin-bottom: 21px;
+    
+                .headerNav{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 53px;
+    
+                    header{
+                        display: flex;
+                        align-items: center;
+                        width: 689px;
+                        height: 53px;
+        
+                        .allPageLinkes{
+                            display: flex;
+                            margin-left: 58px;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 249px;
+                            height: 25px;
+        
+                            a{
+                                text-decoration: none;
+                                color: #939CAA;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px; 
+                                transition: 0.4s;
+        
+                                &:hover{
+                                    cursor: pointer;
+                                    color: #FCB72B;
+                                }
+                            }
+                        }
+        
+                        .getScootIn{
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            font-family: 'Space Mono', monospace;
+                            color: #FFFFFF;
+                            text-align: center;
+                            font-size: 15px;
+                            margin-left: 94px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                color: #FCB72B;
+                                border: 3px solid #FCB72B;
+                                padding: 12px 36px 12px 36px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .introductionBlock{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                height: 650px; 
+    
+                .introduction{
+                    width: 768px;
+                    height: 650px;
+                    background-image: url(../img/imgsOfAllTabletVersionPages/Bitmap.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+        
+                    .introScootSharing{
+                        width: 573px;
+                        margin-left: 97px;
+                        height: 112px;
+                        color: #FFFFFF;
+                        font-size: 56px;
+                        font-style: normal;
+                        text-align: center;
+                        font-weight: 700;
+                        line-height: 56px; 
+                        letter-spacing: -2.5px;
+                    }
+        
+                    .lineOfItro{
+                        display: none;
+                        // margin-top: 83px;
+                    }
+        
+                    .textIntro{
+                        margin-top: 24px;
+                        margin-left: 97px;
+                        text-align: center;
+                        color: #FFF;
+                        font-family: 'Lexend Deca', sans-serif;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px;
+                        width: 573px;
+                        height: 75px;
+                    }
+        
+                    .getScootInn{
+                        padding: 14px 39px 14px 39px;
+                        margin-left: 294px;
+                        margin-top: 95px;
+                        background: #FCB72B;
+                        font-family: 'Space Mono', monospace;
+                        color: #FFFFFF;
+                        text-align: center;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 25px;
+                        transition: 0.1s;
+        
+                        &:hover{
+                            cursor: pointer;
+                            background: #FFFFFF;
+                            color: #FCB72B;
+                            border: 3px solid #FCB72B;
+                            padding: 13px 37px 13px 38px;
+                        }
+                    }
+        
+                    .introPointer{
+                        display: none;
+                        // margin-top: 25px;
+                        // margin-left: 260px;
+                    }
+        
+                    .circleForDesighnOfIntro{
+                        display: none;
+                        // align-items: center;
+                        // justify-content: space-between;
+                        // width: 234px;
+                        // height: 63px;
+                        // margin-left: 1254px;
+                        // margin-top: -96px;
+        
+                        // .firstCircle{
+                        //     width: 60px;
+                        //     height: 60px;
+                        //     flex-shrink: 0;
+                        //     border-radius: 100%;
+                        //     border: 3px solid #FFF;
+                        // }
+        
+                        // .secondCircle{
+                        //     width: 60px;
+                        //     height: 60px;
+                        //     flex-shrink: 0;
+                        //     border-radius: 100%;
+                        //     border: 3px solid #FFF;
+                        // }
+        
+                        // .thirdCircle{
+                        //     width: 63px;
+                        //     height: 63px;
+                        //     flex-shrink: 0;
+                        //     border-radius: 100%;
+                        //     background: #FFFFFF;
+                        // }
+                    }
+                }
+            }
+    
+            .followingRoolsForScoot{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 573px;
+                height: 470px;
+                margin-top: 122px;
+    
+                .mainFollows{
+                    display: flex;
+                    width: 573px;
+                    height: 470px;
+    
+                    .pickedLine{
+                        position: absolute;
+                        width: 15px;
+                        margin-left: 41px;
+                        height: 439px;
+                        background: rgba(229, 236, 244, 1);
+                    }
+    
+                    .textFollows{
+                        display: flex;
+                        flex-direction: column; 
+                        align-items: center;
+                        justify-content: space-between;
+                        height: 470px;
+                        width: 573px;
+                        background: transparent;
+    
+                        .aboutLocate{
+                            display: flex;
+                            align-items: flex-start;
+                            width: 573px;
+                            height: 130px;
+    
+                            .firstSquare{
+                                position: absolute;
+                                width: 96px;
+                                height: 96px;
+                                border-radius: 100%;
+                                background: rgba(252, 183, 43, 1);
+                            }
+    
+                            .locate{
+                                margin-left: 175px;
+                                margin-top: -5px;
+                                color: #495567;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 28px; /* 116.667% */
+                                letter-spacing: -1.071px;
+                            }
+    
+                            .textOfLocate{
+                                margin-left: 175px;
+                                margin-top: 27px;
+                                width: 398px;
+                                height: 75px;
+                                color: #939CAA;
+                                font-family: 'Lexend Deca', sans-serif;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
+                        }
+    
+                        .aboutPick{
+                            display: flex;
+                            align-items: flex-start;
+                            width: 573px;
+                            height: 130px;
+    
+                            .secondSquare{
+                                position: absolute;
+                                width: 96px;
+                                height: 96px;
+                                margin-top: 44px;
+                                border-radius: 100%;
+                                background: rgba(252, 183, 43, 1);
+                            }
+    
+                            .pick{
+                                margin-left: 175px;
+                                margin-top: 40px;
+                                color: #495567;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 28px; 
+                                letter-spacing: -1.071px;
+                            }
+    
+                            .textOfPick{
+                                margin-left: 175px;
+                                margin-top: 27px;
+                                width: 398px;
+                                height: 75px;
+                                color: #939CAA;
+                                font-family: 'Lexend Deca', sans-serif;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
+                        }
+    
+                        .aboutEnjoy{
+                            display: flex;
+                            align-items: flex-start;
+                            width: 573px;
+                            height: 130px;
+    
+                            .thirdSquare{
+                                position: absolute;
+                                width: 96px;
+                                height: 96px;
+                                margin-top: 74px;
+                                border-radius: 100%;
+                                background: rgba(252, 183, 43, 1);
+                            }
+
+                            .enjoy{
+                                margin-left: 175px;
+                                margin-top: -5px;
+                                margin-top: 70px;
+                                color: #495567;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 28px; 
+                                letter-spacing: -1.071px;
+                            }
+    
+                            .textOfEnjoy{
+                                margin-left: 175px;
+                                margin-top: 27px;
+                                width: 398px;
+                                height: 75px;
+                                color: #939CAA;
+                                font-family: 'Lexend Deca', sans-serif;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .firstInformationAboutScoot{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-top: 145px;
+                width: 769px;
+                height: 805px;
+    
+                .mainBlockOfInfo{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 747px;
+                    margin-top: 145px;
+                    height: 805px;
+    
+                    .textOfMainBlock{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 575px;
+                        height: 304px;
+                        margin-top: 56px;
+    
+                        .easyToUseRiding{
+                            color: #495567;
+                            font-family: Space Mono;
+                            font-size: 48px;
+                            text-align: center;
+                            font-style: normal;
+                            width: 457px;
+                            margin-bottom: 40px;
+                            height: 96px;
+                            font-weight: 700;
+                            line-height: 48px; 
+                            letter-spacing: -2.143px;
+                        }                  
+                        
+                        .smallTextOfBlockInfo{
+                            text-align: center;
+                            color: #939CAA;
+                            font-family: Lexend Deca;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            width: 573px;
+                            height: 75px;
+                            margin-bottom: 40px;
+                            line-height: 25px;
+                        }
+    
+                        .learnMore{
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                border: 3px solid #FCB72B;
+                                padding: 13px 37px 13px 38px;
+    
+                                a{
+                                    color: #FCB72B;
+                                }
+                            }
+    
+                            a{
+                                font-family: 'Space Mono', monospace;
+                                color: #FFFFFF;
+                                text-align: center;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+    
+                    .imgOfMainBlock{
+                        display: flex;
+                        align-items: flex-end;
+                        width: 747px;
+                        height: 445px;
+                        background-image: url(../img/homePictures/EasyToUseGirl.png);
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        background-position: right;
+                    }
+                }
+            }
+    
+            .secondInformationAboutScoot{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 768px;
+                height: 805px;
+                margin-top: 128px;
+    
+                .secondMainBlockInfo{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 768px;
+                    height: 805px;
+
+                    .secondImgOfMainBlock{
+                        align-self: flex-start;
+                    }
+    
+                    .secondTextOfMainBlock{
+                        display: flex;
+                        margin-top: 64px;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 573px;
+                        height: 304px;
+    
+                        .comingToACity{
+                            color: #495567;
+                            text-align: center;
+                            font-family: Space Mono;
+                            width: 457px;
+                            font-size: 48px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; 
+                            letter-spacing: -2.143px;
+                        }
+    
+                        .secondMainTextOfBlockInfo{
+                            color: #939CAA;
+                            margin-top: 40px;
+                            margin-bottom: 40px;
+                            width: 573px;
+                            height: 75px;
+                            text-align: center;
+                            font-family: Lexend Deca;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+    
+                        .learnMoree{
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                border: 3px solid #FCB72B;
+                                padding: 13px 37px 13px 38px;
+    
+                                a{
+                                    color: #FCB72B;
+                                }
+                            }
+    
+                            a{
+                                font-family: 'Space Mono', monospace;
+                                color: #FFFFFF;
+                                text-align: center;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .thirdInformationAboutScoot{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 768px;
+                height: 805px;
+                margin-top: 120px;
+    
+                .thirdMainBlockOfInfo{
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column-reverse;
+                    justify-content: space-between;
+                    width: 768px;
+                    height: 805px;
+    
+                    .thirdImgOfMainBlock{
+                        align-self: flex-end;
+                    }
+
+                    .thirdTextOfMainBlock{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 445px;
+                        height: 313px;
+    
+                        .zeroHasslePayments{
+                            color: #495567;
+                            font-family: Space Mono;
+                            text-align: center;
+                            font-size: 48px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; 
+                            letter-spacing: -2.143px;
+                        }
+    
+                        .thirdMainTextOfBlockInfo{
+                            color: #939CAA;
+                            font-family: Lexend Deca;
+                            margin-top: 40px;
+                            width: 573px;
+                            margin-bottom: 40px;
+                            height: 75px;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px;
+                        }
+    
+                        .learnMoreee{
+                            padding: 14px 39px 14px 39px;
+                            background: #FCB72B;
+                            transition: 0.1s;
+        
+                            &:hover{
+                                cursor: pointer;
+                                background: #FFFFFF;
+                                border: 3px solid #FCB72B;
+                                padding: 13px 37px 13px 38px;
+    
+                                a{
+                                    color: #FCB72B;
+                                }
+                            }
+    
+                            a{
+                                font-family: 'Space Mono', monospace;
+                                color: #FFFFFF;
+                                text-align: center;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 25px;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .fullFooter{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 768px;
+                margin-top: 104px;
+                height: 396px;
+    
+                .signUp{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 768px;
+                    height: 300px;
+                    background-image: url(../img/imgsOfAllTabletVersionPages/footerTabletBack.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+    
+                    .signUpScoot{
+                        margin-top: 62px;
+                        width: 457px;
+                        height: 96px;
+                        margin-left: 0px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        font-family: Space Mono;
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px;
+                        letter-spacing: -2.143px;
+                    }
+    
+                    .allAppStores{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 359px;
+                        height: 56px;
+                        margin-left: 0px;
+                        margin-top: 40px;
+                    }
+                }
+    
+                footer{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 768px;
+                    height: 96px;
+                    background: rgba(51, 58, 68, 1);
+    
+                    .mainFooter{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 687px;
+                        height: 29px;
+    
+                        .partOfMainFooter{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 417px;
+                            height: 29px;
+    
+                            .allPageLinkess{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                width: 249px;
+                                height: 25px;
+            
+                                a{
+                                    text-decoration: none;
+                                    color: #939CAA;
+                                    font-size: 15px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    line-height: 25px; 
+                                    transition: 0.4s;
+            
+                                    &:hover{
+                                        cursor: pointer;
+                                        color: #FCB72B;
+                                    }
+                                }
+                            }
+                        }
+    
+                        .socialNetworks{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 120px;
+                            height: 24px;
+    
+                            .facebook{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .twitter{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                            }
+    
+                            .instagram{
+                                svg{
+                                    path{
+                                        fill: #FCB72B;
+                                        transition: 0.4s;
+    
+                                        &:hover{
+                                            fill: #E5ECF4;
+                                            cursor: pointer;
+                                        }
                                     }
                                 }
                             }
