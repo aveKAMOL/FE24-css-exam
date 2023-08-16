@@ -623,4 +623,637 @@ body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .instagr
 body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .instagram svg path:hover {
   fill: #E5ECF4;
   cursor: pointer;
+}
+
+@media (max-width: 1360px) and (min-width: 775px) {
+  body {
+    background: #FFFFFF;
+    font-family: "Space Mono", monospace;
+  }
+  body .careersPageDeskTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  body .careersPageDeskTop .headerTableBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 21px;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 53px;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header {
+    display: flex;
+    align-items: center;
+    width: 689px;
+    height: 53px;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header .allPageLinkes {
+    display: flex;
+    margin-left: 58px;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 25px;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header .allPageLinkes a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header .allPageLinkes a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header .getScootIn {
+    padding: 14px 39px 14px 39px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 94px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .careersPageDeskTop .headerTableBar .headerNav header .getScootIn:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 12px 36px 12px 36px;
+  }
+  body .careersPageDeskTop .aboutBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction {
+    display: flex;
+    align-items: center;
+    width: 768px;
+    height: 200px;
+    background-image: url(../img/imgsOfAllTabletVersionPages/Group\ 26\ \(1\).png);
+    opacity: 0.75;
+    background-position: center center;
+    background-size: cover;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction .aboutIntroWord {
+    color: #FFFFFF;
+    font-family: Space Mono;
+    font-size: 56px;
+    margin-left: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 234px;
+    height: 63px;
+    margin-left: 910px;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro .firstCircle {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-right: 22px;
+    border-radius: 100%;
+    border: 3px solid #FFF;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro .secondCircle {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-right: 22px;
+    border-radius: 100%;
+    border: 3px solid #FFF;
+  }
+  body .careersPageDeskTop .aboutBlock .aboutIntroduction .circleForDesighnOfIntro .thirdCircle {
+    width: 63px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: #FFFFFF;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 200px;
+    width: 768px;
+    height: 805px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 768px;
+    height: 805px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 445px;
+    height: 313px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .easyToUseRiding {
+    text-align: center;
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    width: 445px;
+    margin-bottom: 40px;
+    height: 96px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .smallTextOfBlockInfo {
+    text-align: center;
+    color: #939CAA;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 573px;
+    height: 75px;
+    margin-bottom: 40px;
+    line-height: 25px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .sayHello {
+    padding: 14px 49px 14px 49px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .textOfMainBlock .sayHello:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 13px 47px 13px 48px;
+  }
+  body .careersPageDeskTop .firstInformationAboutScoot .mainBlockOfInfo .imgOfMainBlock {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    width: 747px;
+    height: 445px;
+    background-image: url(../careersPage/careersPageImg/Group\ 16.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  body .careersPageDeskTop .ourValuesBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    margin-top: 120px;
+    height: 1584px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 768px;
+    height: 1584px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .ourValuesIntroText {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 768px;
+    height: 1486px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 457px;
+    height: 487px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechImg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-image: url(../aboutPage/aboutPageImg/ourTech.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechImg .first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechImg .first p {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 130px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechText h3 {
+    width: 350px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourTech .ourTechText p {
+    width: 457px;
+    height: 75px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 457px;
+    height: 487px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityImg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-image: url(../aboutPage/aboutPageImg/ourIntegrity.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityImg .second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityImg .second p {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 130px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityText h3 {
+    width: 350px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourIntegrity .ourIntegrityText p {
+    width: 457px;
+    height: 75px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 457px;
+    height: 487px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityImg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-image: url(../aboutPage/aboutPageImg/ourComunity.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityImg .third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: rgb(252, 183, 43);
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityImg .third p {
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 130px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityText h3 {
+    width: 350px;
+    color: #495567;
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .ourValuesBlock .ourValues .aboutOurValues .ourComunity .ourComunityText p {
+    width: 457px;
+    height: 75px;
+    color: #939CAA;
+    text-align: center;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .careersPageDeskTop .applyingTools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    margin-top: 120px;
+    height: 848px;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 689px;
+    height: 848px;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks {
+    display: flex;
+    align-items: center;
+    width: 689px;
+    height: 128px;
+    background: #F2F5F9;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 650px;
+    margin-left: 40px;
+    margin-right: 176px;
+    height: 61px;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks h3 {
+    color: #495567;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.071px;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .textOfGeneralBlocks p {
+    color: #495567;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .apply {
+    padding: 14px 67.5px 14px 67.5px;
+    background: #FCB72B;
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    margin-right: 48px;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.1s;
+  }
+  body .careersPageDeskTop .applyingTools .applyingToolsBlock .allGeneralBlocks .apply:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    padding: 13px 64.5px 13px 64.5px;
+  }
+  body .careersPageDeskTop .fullFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    margin-top: 120px;
+    height: 396px;
+  }
+  body .careersPageDeskTop .fullFooter .signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 768px;
+    height: 300px;
+    background-image: url(../img/imgsOfAllTabletVersionPages/footerTabletBack.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  body .careersPageDeskTop .fullFooter .signUp .signUpScoot {
+    margin-top: 62px;
+    width: 457px;
+    height: 96px;
+    margin-left: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  body .careersPageDeskTop .fullFooter .signUp .allAppStores {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 359px;
+    height: 56px;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  body .careersPageDeskTop .fullFooter footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    height: 96px;
+    background: rgb(51, 58, 68);
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 687px;
+    height: 29px;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .partOfMainFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 417px;
+    height: 29px;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 249px;
+    height: 25px;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    transition: 0.4s;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .partOfMainFooter .allPageLinkess a:hover {
+    cursor: pointer;
+    color: #FCB72B;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 24px;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .facebook svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .facebook svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .twitter svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .twitter svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .instagram svg path {
+    fill: #FCB72B;
+    transition: 0.4s;
+  }
+  body .careersPageDeskTop .fullFooter footer .mainFooter .socialNetworks .instagram svg path:hover {
+    fill: #E5ECF4;
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=styleC.css.map */
